@@ -170,7 +170,7 @@ class Compatibility:
         if len(read_app_base) == 0:
             temp_name = temp_file_to_wrote["folder name"]
             print(f"There is no Excel order for all applications in the current direction\n"
-                  f"It should be named eg. HMS{temp_name}.xlsx; GMS{temp_name}.xlsx")
+                  f"It should be named eg. {temp_name}.xlsx; {temp_name}.xlsx")
             time.sleep(5)
             sys.exit()
 
